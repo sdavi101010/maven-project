@@ -14,7 +14,8 @@ public class Greeter {
 
   /**
    * Provides a greeting.
-   **/
+   * @param someone a descriptor to whom you are greeting.
+   */
   public String greet(final String someone) {
     return String.format("Hello, %s!", someone);
   }
